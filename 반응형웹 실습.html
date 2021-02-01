@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*모바일*/
+        @media screen and (max-width: 767px){
+            #wrap {
+                background-color: #ff0000;
+                color: #ffffff;
+            }
+        }
+        /*태블랫*/
+        @media screen and (min-width: 768px) and (max-width: 959){
+            #wrap {
+                background-color: #00ff00;
+                color: #ffffff;
+            }
+        }
+        /*PC*/
+        @media screen and (min-width: 960px){
+            #wrap {
+                background-color: #0000ff;
+                color: #ffffff;
+            }
+        }
+        
+        #wrap {
+            width: 80%;
+            border: 1px solid #cccccc;
+            margin: 0 auto;
+        }
+
+        #header{
+            width: 100%;
+            border: 1px solid #cccccc;
+        }
+
+        #section{
+            width: 100%;
+            border: 1px solid #cccccc;
+        }
+        
+        #footer{
+            width: 100%;
+            border: 1px solid #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            header
+        </div>
+        <div id="section">
+            section
+        </div>
+        <div id="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
