@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            color: #343434;
+        }       
+
+        #wrap{
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #cccccc;
+            box-sizing: border-box;
+        }
+
+        header .logowrap{
+
+        }
+
+        #wrap nav{
+            width: 100%;
+        }
+        #warp nav ul{
+            overflow: hidden;
+        }
+        #wrap nav ul li{
+            float: left;
+            width: 20%;
+            border: 1px solid #ff0000;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        #wrap section{
+            width: 100%;
+            background-color: #00ff00;
+            overflow: hidden;
+        }
+        #wrap section article{
+            float: left;
+            width: 70%;
+        }
+        #wrap section aside{
+            float: left;
+            width: 30%;
+        }
+        #wrap section aside div:nth-child(1){
+            border: 1px solid #dddddd;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        #wrap section aside div:nth-child(1) img{
+            max-width: 100%;
+        }
+        #wrap section aside div:nth-child(2){
+            border: 1px solid #dddddd;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        #wrap section aside div:nth-child(2) img{
+            min-width: 100%;
+            max-width: 100%;
+        }
+        #wrap section aside div:nth-child(3){
+            border: 1px solid #dddddd;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        #wrap section aside div:nth-child(3) img{
+            min-width: 100%;
+        }
+        
+        #wrap footer{
+            width: 100%;
+            background-color: blue;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="logowrap">
+                logo img
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+                <li><a href="#">menu5</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <div>
+                    article1
+                </div>
+                <div>
+                    article2
+                </div>
+            </article>
+            <aside>
+                <div>
+                    <img src="./노드.png" alt="">
+                </div>
+                <div>
+                    <img src="./노드.png" alt="">
+                </div>
+                <div>
+                    <img src="./노드.png" alt="">
+                </div>
+            </aside>
+        </section>
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+</html>
